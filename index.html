@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>광고 매체론</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>광고매체론(지상파 TV광고)</h2>
+<p>지상파 TV 콘텐츠 파워의 약화에 주목.</p>
+<p>SMR의 증가추세 / PCM의 등장.</p>
+<p><strong>참고:</strong> TV광고는 CPM과 CPRP를 고려할때 매우 효과적인 매체임.</p>
+
+<header>
+  <h2>광고매체론</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">광고총량제</a></li>
+      <li><a href="#">광고용어</a></li>
+      <li><a href="#">효과측정지표</a></li>
+    </ul>
+  </nav>
+
+  <article>
+    <h1>방송프로그램 편성시간당 총량제</h1>
+    <p>유료방송의 경우 가상광고 및 간접광고의 허용시간 : 100/5에서 100/7로 확대.</p>
+    <p>운동경기 중계에만 허용하던 가상광고를 오락/스포츠 분야 보도에 관한
+       방송프로그램에도 허용.</p>
+  </article>
+</section>
+
+<h2>효과측정지표</h2>
+<p>CPM: cost per mill : 천명에게 도달하는 광고비용
+  <p>CPRP : cost per rating points : 시청률1%를 올리기 위한 비용
+<p>cpv : cost per view : 시청한 횟수에 따른 비용
+      <p>cpa : cost per action : 액션에 따른 비용
+<p>cpc : cost per clicks : 클릭에 따른 비용
+
+<footer>
+  <p>광고용어 총정리</p>
+</footer>
+
+</body>
+</html>
